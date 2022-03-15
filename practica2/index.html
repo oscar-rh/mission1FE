@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:::PASTELERIA "La Bonne Tarte Interstellar":::</title>
+</head>
+<body>
+    <h1> PASTELERIA "La Bonne Tarte Interstellar" </h1>
+    <hr color="#E74C3C" size=2>
+    <img src="./logo.png">    
+    <p> Arma tu pastel
+
+        <form action="envia.js">
+        <p>Sabores disponibles:</p>
+
+
+        <table>
+                <thead>
+                    <tr>
+                        <td> Sabor
+                        </td>
+                        <td> Precio
+                        </td>
+                    </tr>
+                </thead> 
+                <tbody>
+                    <tr>
+                        <td> 
+                            
+                            <input type="checkbox" value="fresa" id="fresa" name="fresa" >
+                            <label for="fresa" > fresa</label>  
+                        </td>
+                        <td> $200.00
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            
+                            <input type="checkbox" value="vainilla" id="vainilla" name="vainilla" >
+                            <label for="vainilla" > vainilla</label>  
+                        </td>
+                        <td> 
+                            $250.00
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" value="chocolate" id="chocolate" name="chocolate" > 
+                            <label for="chocolate" > chocolate</label>                          
+                        </td>
+                        <td> 
+                            $300.00
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 
+
+                            <input type="checkbox" value="limon" id="limon" name="limon" >
+                            <label for="limon" > limon</label>                          
+                        </td>
+                        <td> $150.00
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="checkbox" value="platano" id="platano" name="platano" >                        
+                            <label for="platano" > platano</label>  
+                        </td>
+                        <td> $350.00
+                        </td>
+                    </tr>    
+                    <tr>
+                        <td>
+                            <input type="checkbox" value="pinon" id="pinon" name="pinon" >                        
+                            <label for="pinon" > piñon</label>  
+                        </td>
+                        <td> $500.00
+                        </td>
+                    </tr>                                                                              
+                </tbody>
+        </table>
+
+      <p>Adornos y cubiertas:</p>
+
+
+      <table>
+        <thead>
+            <tr>
+                <td> Adornos y Cubiertas
+                </td>
+                <td> Precio
+                </td>
+            </tr>
+        </thead> 
+        <tbody>
+            <tr>
+                <td> 
+                    <input type="checkbox" value="chantilly" id="chantilly" name="chantilly" >
+                    <label for="chantilly" > chantilly</label>  
+                </td>
+                <td> $200.00
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" value="ganache" id="ganache" name="ganache" >
+                    <label for="ganache" > ganache</label>                      
+                </td>
+                <td> 
+                    $250.00
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" value="fondant" id="fondant" name="fondant" >                          
+                    <label for="fondant" > fondant</label>                      
+                </td>
+                <td> 
+                    $300.00
+                </td>
+            </tr>
+            <tr>
+                <td> 
+                    <input type="checkbox" value="merengue" id="merengue" name="merengue" >                         
+                    <label for="merengue" > merengue</label>                      
+                </td>
+                <td> $150.00
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" value="azucarglass" id="azucarglass" name="azucarglass" >
+                    <label for="azucarglass" > azucarglass</label>                      
+                </td>
+                <td> $350.00
+                </td>
+            </tr>    
+                                                                             
+        </tbody>
+</table>
+
+<br>
+     
+        <table>
+            <thead>
+                <tr>
+                    <td> 
+                    </td>
+                    <td> 
+                    </td>
+                </tr>
+            </thead> 
+            <tbody>
+                <tr>
+                    <td> 
+                        <label for="nombre">Nombre:</label> 
+                    </td>
+                    <td> 
+                        <input type="text" id="nombre" name="nombre">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="correo">Email:</label>                     
+                    </td>
+                    <td> 
+                        <input type="email" id="correo" name="correo">    
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="telefono">Teléfono:</label>                     
+                    </td>
+                    <td> 
+                        <input type="tel" id="telefono" name="telefono" pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}">    
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="mensaje">Mensaje:</label>                     
+                    </td>
+                    <td> 
+                        <textarea id="mensaje" name="mensaje" rows="4" cols="50">
+                           
+                            </textarea>    
+                    </td>
+                </tr>                 
+                <tr>
+                    <td>
+                        <label for="notas">Notas:</label>                     
+                    </td>
+                    <td> 
+                        <textarea id="notas" name="notas" rows="4" cols="50">
+                           
+                            </textarea>    
+                    </td>
+                </tr>               
+                                                                                 
+            </tbody>
+    </table>        
+
+
+
+<br>
+    <input type="submit" value="Enviar Pedido">
+    <input type="reset" value="Limpiar">
+
+</br>
+
+
+    </form>
+
+    <footer>
+        <hr color="#E74C3C" size=2>
+        <p>Paseo de la Paz #25, Col Florida, Alcaldía Alvaro Obregón, CDMX, 01030 
+            <br>
+            Tel. 55-33-22-55-88
+            <br>
+            Lun - Vie  10 am - 6 pm 
+            <br>
+            Sab 8 am - 6 pm 
+            <br>
+            Dom 10 am - 4 pm
+        </p>
+        
+    </footer>
+</body>
+</html>

@@ -1,0 +1,143 @@
+
+.fondo-azul-claro  {
+    background-color: #e6f5fc;
+}
+.fondo-blanco  {
+    background-color: #ffffff;
+ }
+ .fondo-azul-rey {
+     background-color: #3e59cf;
+ }
+ .fondo-azul-imagen {
+     background-color: #0c95e5;
+ }
+ .texto-gris {
+     color: #6f7d90;
+ }
+
+ .texto-azul {
+    color: #3e59cf;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;   
+    font-weight: bold; 
+
+
+ }
+ .menuUL{  
+     list-style: none; 
+     color: #6f7d90;    
+ }
+
+ li{
+     padding: 1.5rem;
+ }
+
+ .boton-header {
+    background-color: #3e59cf;
+    color: white;
+    border-radius: 5px;
+    height: 10px;
+    margin-top: 10px;
+  }
+
+  .hero-left {
+    width: 300px;
+    height: 700px;
+    background-image: url("fondoflechas.png"); 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+  .hero-right {
+      width: 300px;
+      height: 700px;
+      background-image: url("enfermera.png"); 
+      background-size: cover;
+      
+  }
+
+  .fight {
+    width: 290px;
+    color: #1f3e72;
+    font-weight: bold;
+    font-size: 2.7rem;
+    
+  }
+
+  .texto-azul-marino {
+
+    color: #2a4879
+  }
+
+  .texto-hero-left{
+
+    width: 320px;
+  }
+
+  .cards-hero{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    position: absolute;
+    top:720px;
+    left:80px;
+    background-color: #ffffff;
+    opacity: 0.9;
+
+  }
+
+  .boton-hero {
+    background-color: #3e59cf;
+    color: white;
+    border-radius: 5px;
+    height: 30px;    
+    width: 80px;    
+    text-align: center;
+    
+  }
+
+  .texto-why {
+    margin-left: 180px;
+    color: #1f3e72;
+    font-weight: bold;
+    font-size: 1.7rem;
+    
+  }
+
+  .texto-gris-why {
+    color: #6f7d90;
+    margin-left: 180px;
+}
+
+.back-banner{    
+    background-image: url("trianguloback.png"); 
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 100px 100px;
+}
+
+.cartas  {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carta {
+    width: 150px;    
+}
+
+.carta-titulo {    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:1rem ;   
+    font-weight: bold;        
+}
+
+.carta-texto {
+    font-size:0.7rem ;   
+    font-weight: bold;        
+
+}
